@@ -1,0 +1,133 @@
+@import "../variables/variables.css";
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400|Open+Sans:700');
+
+html {
+  /* font-family: var(--main-font-family); */
+  font-family: 'Montserrat', Helvetica, sans-serif;
+
+  font-size: var(--main-font-size);
+  color: var(--main-font-color);
+  font-weight: 400;
+  line-height: 1.55;
+
+}
+
+.text_tiny {
+  font-size: 0.5rem;
+}
+
+small,
+.text_small {
+  font-size: 0.75rem;
+
+}
+
+.text_large {
+  font-size: 1.5rem;
+}
+
+.text_extra-large {
+  font-size: 2rem;
+}
+
+
+.text_bold {
+  font-weight: bold;
+}
+
+.text_grey {
+  color: var(--color-text-grey);
+}
+
+.text_accient {
+  color: var(--color-accient);
+}
+
+.text_ui {
+  color: var(--color-ui);
+}
+
+.text_white {
+  color: var(--color-ui-white);
+}
+
+.text_link {
+  color: var(--color-ui);
+}
+
+.text_link--underline {
+  text-decoration: underline;
+}
+
+.text_center {
+  text-align: center;
+}
+
+.text_width-26 {
+  display: block;
+  width: 26rem;
+}
+
+.text_crossed {
+  position: relative;
+}
+
+.text_crossed::after {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 2px;
+  background-color: var(--color-text-grey);
+  top: 45%;
+  left: 0;
+}
+
+p {
+  margin-top: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: var(--main-font-family);
+  margin: 3rem 0 1.68rem;
+  margin-top: 0;
+
+  font-weight: 700;
+  line-height: 1;
+}
+
+h1 {
+  font-size: 4.209rem;
+}
+
+h2 {
+  font-size: 3.157rem;
+}
+
+h3 {
+  font-size: 2.369rem;
+}
+
+h4 {
+  font-size: 1.777rem;
+}
+
+h5 {
+  font-size: 1.333rem;
+}
+
+@media (max-width: 1024px) {
+  .text_width-26 {
+    display: block;
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  p {
+    word-break: break-word;
+  }
+}

@@ -1,0 +1,49 @@
+.img-text {
+    display: flex;
+    /* align-items: flex-start; */
+    align-items: center;
+
+    gap: 1rem;
+}
+
+.profession .img-text {
+    flex-direction: column;
+}
+
+.img-text_img {
+    width: 4rem;
+}
+
+.img-text_grid {
+    display: flex;
+    /* flex-direction: column; */
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+@media (max-width: 1024px) {
+    .img-text_grid {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .profession .img-text {
+        align-items: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .img-text_grid {
+        flex-direction: column;
+    }
+
+    .img-text {
+        text-align: center;
+    }
+
+    .profession .img-text {
+        align-items: center
+    }
+}

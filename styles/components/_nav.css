@@ -1,0 +1,14 @@
+.nav .nav_item {
+    text-decoration: none;
+    padding: 0.5rem;
+    color: inherit;
+    white-space: nowrap;
+}
+
+.nav_header .nav_item {
+    color: var(--color-grey);
+}
+
+.nav_page .nav_item {
+    color: var(--color-grey);
+}

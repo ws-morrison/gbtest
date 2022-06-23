@@ -1,0 +1,61 @@
+@import "../variables/variables.css";
+
+/* Reset */
+.button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: none;
+    text-decoration: none;
+    color: inherit;
+
+    background-color: var(--color-lightgrey);
+    padding: var(--in-05x) var(--in-1x);
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+
+.button.button_accient {
+    background-color: var(--color-accient);
+    color: var(--color-ui-white);
+    min-height: 4rem;
+}
+
+.button_icon {
+    display: inline-flex;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+
+}
+
+.button_icon-img {
+    fill: var(--color-ui-white);
+    color: var(--color-ui-white);
+}
+
+
+.button_icon:hover .icon-arrow-right {
+    transform: translate(70%);
+}
+
+.button_cta {
+    color: var(--color-ui-white);
+    background-color: var(--color-action);
+    border-radius: 30px;
+}
+
+.button_cta:hover {
+    filter: brightness(1);
+}
+
+.button_transparent {
+    background-color: transparent;
+}
+
+.button_transparent:hover {
+    background-color: var(--color-ui-white);
+    filter: brightness(1);
+}

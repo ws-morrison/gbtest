@@ -1,0 +1,39 @@
+:root {
+  /*  Colors */
+  --main-font-color: #181718;
+  --main-font-size: 16px;
+  --main-font-family: "Open Sans", Helvetica, sans-serif;
+  --color-accient: #725EF2;
+  --color-ui: #8D46F6;
+  /* #6654D9 */
+  --color-action: #29F8B5;
+  --color-ui-white: #f4f5fa;
+  --color-lightgrey: #eff0f5;
+  --color-grey: #62646b;
+  --color-darkgrey: #94999e;
+  --color-darker: #545658;
+  --color-text-grey: #7c8092;
+
+  /* Shadows */
+
+  --bs: 0 4px 10px -2px rgb(101 101 101 / 19%);
+  
+  /*  Indents */
+  --in-05x: 0.5rem;
+  --in-1x: 1rem;
+  --in-2x: 2rem;
+
+  /* MQs */
+  --mq-mob: 640px;
+  --mq-tab: 1024px;
+
+  /* Radius */
+
+  --br-min: 12px;
+  --br-common: 30px;
+  --br-round: 100px;
+
+  /* Containers */
+  --wrap-size: 85vw;
+  --wrap-mob-size: 90vw;
+}

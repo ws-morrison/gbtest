@@ -1,0 +1,38 @@
+.tags {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.tags.tags_mb {
+    margin-bottom: 1.5rem;
+}
+
+.tags_item {
+    padding: 0.5rem;
+    background-color: white;
+    border-radius: var(--br-common);
+    font-weight: 300;
+}
+
+.tags_item_accient {
+    background-image: linear-gradient(107.85deg, #c3a3f2 2.42%, #f0e7ff);
+
+}
+
+.tags_item_green {
+    background-color: #edfcf7;
+    color: #10af7c;
+}
+
+.tags_common .tags_item {
+    color: var(--color-accient);
+    border: 1px solid var(--color-accient);
+    background-color: white;
+    margin-bottom: 0.5rem;
+}
+
+.tags_common .tags_item.active {
+    background-color: var(--color-accient);
+    color: white;
+}

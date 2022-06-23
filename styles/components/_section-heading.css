@@ -1,0 +1,13 @@
+
+.course-plan .section_heading {
+    width: 40rem;
+}
+
+@media (max-width: 1024px) {
+    .section_title {
+        word-break: break-word;
+    }
+    .course-plan .section_heading {
+        width: 100%;
+    }
+}

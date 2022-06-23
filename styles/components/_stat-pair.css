@@ -1,0 +1,4 @@
+.stat-pair_item {
+    display: flex;
+    flex-direction: column;
+}

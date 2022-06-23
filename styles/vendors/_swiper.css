@@ -1,0 +1,29 @@
+.swiper-slide {
+    height: auto;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    display: none;
+}
+
+
+.swiper-pagination-bullet {
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: #B0A7E9;
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+
+    background-color: #725EF2;
+}
+
+@media (max-width: 768px) {
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        opacity: 0.3;
+    }
+
+}

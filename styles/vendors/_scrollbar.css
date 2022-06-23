@@ -1,0 +1,19 @@
+/* @media (min-width: 768px) {
+    * {
+      scroll-behavior: smooth;
+    }
+  
+    *::-webkit-scrollbar {
+      width: 0.4em;
+      height: 0.4em;
+    }
+  
+    *::-webkit-scrollbar-track {
+      background: transparent;
+    }
+  
+    *::-webkit-scrollbar-thumb {
+      background: transparent;
+    }
+  } */
+  
